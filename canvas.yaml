@@ -1,0 +1,28 @@
+preset: package
+
+namespace: Sysniq\LaravelTable
+user-auth-provider: App\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+  namespace: Sysniq\LaravelTable\Database\Factories
+
+migration:
+  path: database/migrations
+  prefix: ''
+
+console:
+  namespace: Sysniq\LaravelTable\Console
+
+model:
+  namespace: Sysniq\LaravelTable\Models
+
+provider:
+  namespace: Sysniq\LaravelTable\Providers
+
+testing:
+  namespace: Sysniq\LaravelTable\Tests

@@ -1,0 +1,18 @@
+<?php
+
+namespace DummyNamespace;
+
+use Sysniq\LaravelTable\View\Components\Table;
+
+class DummyClass extends Table
+{
+    public function columnDefinition()
+    {
+        // 
+    }
+
+    public function actionDefinition()
+    {
+        // 
+    }
+}

@@ -1,0 +1,99 @@
+@import 'datatables.net-dt';
+@import 'datatables.net-responsive-dt';
+@import 'datatables.net-select-dt';
+@import 'datatables.net-buttons-dt';
+
+.st-container {
+    @apply flex flex-col gap-3;
+}
+
+.st-action-create-container {}
+
+.st-table {
+    @apply w-full !important;
+}
+
+.st-thead {}
+
+.st-head {}
+
+.st-tbody {}
+
+.st-row {}
+
+.st-data {
+    @apply m-auto;
+}
+
+.st-index-header {
+    @apply w-0;
+}
+
+.st-index {
+    @apply w-0;
+}
+
+.st-action {
+    @apply cursor-pointer;
+}
+
+.st-action-create {
+    @apply flex gap-1 float-right p-2 bg-green-300 rounded shadow text-white;
+}
+
+.st-action-create-icon {}
+
+.st-action-create-text {
+    @apply hidden md:inline;
+}
+
+.st-action-cell-header {
+    @apply w-0;
+}
+
+.st-action-cell-header span {
+    @apply hidden md:inline
+}
+
+.st-action-cell {
+    @apply w-0;
+}
+
+.st-action-showmore {
+    @apply text-blue-500 block w-min cursor-pointer md:hidden;
+}
+
+.st-action-container {
+    @apply text-blue-500 gap-1 w-min absolute bg-white rounded shadow border border-gray-200 transform -translate-x-12 -translate-y-7 p-2 flex-col md:flex-row md:p-0 md:static md:bg-transparent md:rounded-none md:shadow-none md:border-none md:transform-none;
+}
+
+.st-action-delete {}
+
+.st-action-edit {}
+
+.st-action-show {}
+
+.st-date-filter-container {
+    @apply flex flex-col gap-3;
+}
+
+.dataTables_length, .dataTables_filter {
+    @apply w-max;
+    @apply m-0 !important;
+}
+
+.dataTables_length select {
+    @apply w-16;
+}
+
+.dataTables_lf_container {
+    @apply flex justify-between; 
+}
+
+.dataTables_wrapper {
+    @apply flex flex-col gap-1;
+}
+
+.dt-buttons {
+    @apply float-right !important;
+}

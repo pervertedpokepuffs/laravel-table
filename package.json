@@ -1,0 +1,48 @@
+{
+  "name": "laravel-table",
+  "version": "1.0.0",
+  "description": "[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md) [![Travis](https://img.shields.io/travis/sysniq/laravel-table.svg?style=flat-square)]() [![Total Downloads](https://img.shields.io/packagist/dt/sysniq/laravel-table.svg?style=flat-square)](https://packagist.org/packages/sysniq/laravel-table)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/softwaret11/laravel-table.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/softwaret11/laravel-table/issues"
+  },
+  "homepage": "https://gitlab.com/softwaret11/laravel-table#readme",
+  "dependencies": {
+    "alpinejs": "^3.2.4",
+    "datatables.net": "^1.11.3",
+    "datatables.net-buttons": "^2.0.0",
+    "datatables.net-buttons-dt": "^2.0.0",
+    "datatables.net-dt": "^1.1.0",
+    "datatables.net-responsive": "^2.2.9",
+    "datatables.net-responsive-dt": "^2.2.9",
+    "datatables.net-select": "^1.3.3",
+    "datatables.net-select-dt": "^1.3.3",
+    "jquery": "^3.6.0",
+    "laravel-mix": "^6.0.31",
+    "laravel-mix-polyfill": "^3.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "pdfmake": "^0.2.2",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.16"
+  }
+}

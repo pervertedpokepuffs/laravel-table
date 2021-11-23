@@ -1,0 +1,1 @@
+<x-st::base-destroy-action href="{{ $route }}" :class-name="$class" :action-title="$title" />

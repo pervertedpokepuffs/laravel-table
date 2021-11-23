@@ -1,0 +1,1 @@
+<x-st::base-destroy-action :href="route($delete_action['route'], ['id' => $model->id])" :class-name="$delete_action['class']" :action-title="$delete_action['title']" />
